@@ -1,0 +1,59 @@
+# Byte-compiled / optimized / C extensions
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments
+# Ini adalah bagian terpenting, jangan pernah memasukkan folder venv ke Git
+venv/
+.venv/
+env/
+.env
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# File konfigurasi Editor/IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Trained Models & Serialized Objects
+# Model adalah artefak hasil training, bukan source code. Ukurannya bisa sangat besar.
+*.pkl
+*.joblib
+*.h5
+*.model
+*.scaler
+
+# Data Files
+# Dataset mentah atau yang sudah diproses sebaiknya tidak disimpan di Git.
+# Cukup simpan kode untuk memprosesnya.
+# `**/data/*.csv` berarti semua file .csv di dalam folder `data` manapun akan diabaikan.
+**/data/*.csv
+**/data/*.json
+**/data/*.xlsx
+
+# Jika Anda tetap ingin memasukkan dataset awal untuk kemudahan,
+# Anda bisa membuat pengecualian seperti ini (hapus tanda # di bawah):
+# !**/data/expense_data_1.csv
+
+# OS-generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+
+# Log files
+*.log
+*.log.*
+
+# Distribution / build artifacts
+dist/
+build/
+*.egg-info/
